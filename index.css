@@ -24,6 +24,10 @@ body {
     flex-direction: column;
 }
 
+a{
+    color:#2d8ec7;
+}
+
 .banner .card .heading {
     color: #35eea4;
     font-family: "Playfair Display", serif;
@@ -70,7 +74,6 @@ body {
 .row-1 {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     margin-top: 0vh;
 
 }
@@ -130,8 +133,13 @@ body {
     /*align-items:left! important;*/
 
 }
+a{
+    color:#2d8ec7;
+    margin-left: 50px;
+}
+
    .sub-heading{
-    padding: 0 1.5vw 0vw! important;
+    /*padding: 0 1.5vw 0vw! important;*/
     margin: 0;
     color: #35eea4;
     font-size: 1rem;
@@ -188,7 +196,7 @@ body {
 .paragraph {
     color: #d97d7d;
     font-family: "Istok Web", sans-serif;
-    padding: 1vw 5vw 3vw 3vw;
+    padding: 2vw 5vw 3vw 3vw;
 }
 .column {
     display: flex;
